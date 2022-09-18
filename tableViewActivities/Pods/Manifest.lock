@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.6.2)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+  - SnapKit (5.6.0)
+  - TableViewReloadAnimation (0.0.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - SDWebImage
+  - SnapKit
+  - TableViewReloadAnimation
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SDWebImage
+    - SnapKit
+    - TableViewReloadAnimation
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  TableViewReloadAnimation: f3a4c4048efbc56331be98075f26a2e533a14c16
+
+PODFILE CHECKSUM: 8a2cac47f8c35d559289f19bb5db92cd9c6ebe4a
+
+COCOAPODS: 1.11.3

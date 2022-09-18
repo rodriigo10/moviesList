@@ -1,0 +1,6 @@
+framework module Pods_tableViewActivities_tableViewActivitiesUITests {
+  umbrella header "Pods-tableViewActivities-tableViewActivitiesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
