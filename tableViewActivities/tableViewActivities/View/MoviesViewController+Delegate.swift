@@ -10,6 +10,9 @@ import UIKit
 extension MoviesViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         moviesTableView.deselectRow(at: indexPath, animated: true)
-        print("Reload")
+
+        let goToDetails = MoviesDetailViewController()
+        navigationController?.pushViewController(goToDetails, animated: true)
+        goToDetails.controller.getDetailsMovies(content: controller.cellsByIndex(indexPath: indexPath))
     }
 }
